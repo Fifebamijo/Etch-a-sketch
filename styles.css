@@ -1,0 +1,112 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 400px;
+
+}
+
+.header div h4 {
+    display: inline-block;
+}
+
+.header #input {
+    width: 50px;
+    height: 25px;
+}
+
+.header p {
+    font-size: 12px;
+    font-weight: bold;
+    color: red;
+}
+
+.header button {
+    padding: 8px 10px;
+    width: 70px;
+    height: 35px;
+    background-color: rgb(241, 34, 34);
+    outline: none;
+    box-shadow: 2px 2px gray;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.board {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    border: 1px solid black;
+    margin: 20px 0;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
+
+.footer #black {
+    padding: 8px 10px;
+    width: 70px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    box-shadow: 2px 2px rgb(138, 134, 134);
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.footer #random {
+    padding: 8px 10px;
+    width: 70px;
+    height: 35px;
+    background-color: #f6bfbc;
+    outline: none;
+    box-shadow: 2px 2px gray;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+
+.footer #erase {
+    padding: 8px 10px;
+    width: 70px;
+    height: 35px;
+    background-color: rgb(175, 171, 171);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px black;
+    border-radius: 3px;
+}
+
+.footer #reset {
+    padding: 8px 10px;
+    width: 70px;
+    height: 35px;
+    background-color: red;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px gray;
+    border-radius: 3px;
+}
